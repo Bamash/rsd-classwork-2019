@@ -1,5 +1,6 @@
 import datetime
 
+
 def time_range(t0, t1, n=1, g=0):
     t0_s = datetime.datetime.strptime(t0, "%Y-%m-%d %H:%M:%S")
     t1_s = datetime.datetime.strptime(t1, "%Y-%m-%d %H:%M:%S")
